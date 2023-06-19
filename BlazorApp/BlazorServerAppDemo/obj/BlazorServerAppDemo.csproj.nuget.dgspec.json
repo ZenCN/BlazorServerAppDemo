@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\BlazorApp\\BlazorServerAppDemo\\BlazorServerAppDemo.csproj": {}
+    "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\git\\BlazorApp\\BlazorServerAppDemo\\BlazorServerAppDemo.csproj": {}
   },
   "projects": {
-    "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\BlazorApp\\BlazorServerAppDemo\\BlazorServerAppDemo.csproj": {
+    "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\git\\BlazorApp\\BlazorServerAppDemo\\BlazorServerAppDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\BlazorApp\\BlazorServerAppDemo\\BlazorServerAppDemo.csproj",
+        "projectUniqueName": "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\git\\BlazorApp\\BlazorServerAppDemo\\BlazorServerAppDemo.csproj",
         "projectName": "BlazorServerAppDemo",
-        "projectPath": "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\BlazorApp\\BlazorServerAppDemo\\BlazorServerAppDemo.csproj",
+        "projectPath": "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\git\\BlazorApp\\BlazorServerAppDemo\\BlazorServerAppDemo.csproj",
         "packagesPath": "C:\\Users\\LL219913\\.nuget\\packages\\",
-        "outputPath": "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\BlazorApp\\BlazorServerAppDemo\\obj\\",
+        "outputPath": "D:\\LL219913\\DevTools\\dotnet-sdk-6.0.410-win-x64\\git\\BlazorApp\\BlazorServerAppDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LL219913\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "BootstrapBlazor": {
+              "target": "Package",
+              "version": "[7.7.3-beta01, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
